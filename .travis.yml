@@ -35,3 +35,8 @@ before_script:
 
 script:
   - docker-compose exec test-ruby${TARGET_RUBY_VERSION} bundle exec rake test
+
+# safelist
+branches:
+  only:
+  - database-refresh-support
