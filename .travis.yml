@@ -39,5 +39,4 @@ script:
 # safelist
 branches:
   only:
-  - master
-  - database-refresh-support
+    - database-refresh-support
